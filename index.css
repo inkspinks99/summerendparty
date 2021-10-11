@@ -1,15 +1,26 @@
+body{
+    background-color: violet;
+}
+
 #main-header{
     text-align: center;
     background-color: rgb(172, 95, 142) ;
     color: white;
     font-size: 30px;
     padding: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 #leftie {
     width: 50%;
     background-color: rgb(172, 95, 142);
     color: black;
+}
+
+#Lisko  {
+    margin-right: 20px;
 }
 
 #aside  {
@@ -33,6 +44,7 @@
     border-style: solid;
     border-width: 10px;
     border-color: plum;
+    color: white;
 }
 
 
@@ -46,6 +58,7 @@
     border-style: solid;
     border-width: 10px;
     border-color: plum;
+    color: white;
 }
 
 #thirdbox  {
@@ -58,6 +71,7 @@
     border-style: solid;
     border-width: 10px;
     border-color: plum;
+    color: white;
 }
 
 #fourthbox  {
@@ -70,9 +84,17 @@
     border-style: solid;
     border-width: 10px;
     border-color: plum;
+    color: white;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1.5rem;
 }
 
 #miau   {
     background-color: rgb(172, 95, 142);
     width: 50%;
+    border-radius: 10px;
+    border-width: 20px;
 }
