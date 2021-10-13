@@ -1,47 +1,52 @@
-body    {
-    background-color: rgb(205, 206, 141);
+body{
+    background-color: rgb(255, 255, 255);
 }
 
-#main-header{
+#header    {
     text-align: center;
-    background-color: rgb(226, 202, 62) ;
+    background-color: rgb(100, 194, 223) ;
     color: white;
     font-size: 30px;
     padding: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(117, 176, 194);
     border-width: 10px;
 }
 
-#firstbox   {
+#nav    {
     height: 40px;
-    width: 1500px;
-    background-color: rgb(230, 231, 127);
+    width: 731px;
+    background-color: rgb(156, 210, 226);
     text-align: center;
     float: left;
     font-size: 20px;
     color: white;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(247, 237, 102);
+    border-color: rgb(117, 176, 194);
 }
 
-#secondbox  {
+#navtwo {
     height: 40px;
-    width: 1500px;
-    background-color: rgb(230, 231, 127);
+    width: 732px;
+    background-color: rgb(156, 210, 226);
     text-align: center;
     float: left;
     font-size: 20px;
     color: white;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(247, 237, 102);
+    border-color: rgb(117, 176, 194);
 }
 
-.center {
+#section    {
+    text-align: center;
+    background-color: rgb(156, 210, 226);
+}
+
+.center   {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-  }
+    width: 30%;
+}
