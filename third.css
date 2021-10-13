@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#header    {
+    text-align: center;
+    background-color: rgb(100, 194, 223) ;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(117, 176, 194);
+    border-width: 10px;
+}
+
+#nav    {
+    height: 40px;
+    width: 731px;
+    background-color: rgb(156, 210, 226);
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(117, 176, 194);
+}
+
+#navtwo {
+    height: 40px;
+    width: 732px;
+    background-color: rgb(156, 210, 226);
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(117, 176, 194);
+}
+
+#section    {
+    text-align: center;
+}
+
+.center   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
