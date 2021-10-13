@@ -15,7 +15,7 @@ body    {
 
 #firstbox   {
     height: 40px;
-    width: 1500px;
+    width: 356px;
     background-color: rgb(230, 231, 127);
     text-align: center;
     float: left;
@@ -28,7 +28,33 @@ body    {
 
 #secondbox  {
     height: 40px;
-    width: 1500px;
+    width: 356px;
+    background-color: rgb(230, 231, 127);
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(247, 237, 102);
+}
+
+#thirdbox   {
+    height: 40px;
+    width: 356px;
+    background-color: rgb(230, 231, 127);
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(247, 237, 102);
+}
+
+#fourthbox  {
+    height: 40px;
+    width: 356px;
     background-color: rgb(230, 231, 127);
     text-align: center;
     float: left;
@@ -43,5 +69,5 @@ body    {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-  }
+    width: 200%;
+}
