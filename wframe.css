@@ -1,0 +1,52 @@
+.logo {
+	float: left;
+	padding: 8px;
+	border-right: 3px solid rgb(20, 68, 80);
+}
+.border {
+	border: 3px solid rgb(20, 68, 80);
+}
+.center {
+	text-align: center;
+}
+header{
+	margin-bottom: 10px;
+}
+.row {
+	margin-bottom: 10px;
+}
+.placeholder-img {
+	width: 100px;
+	height: 100px;
+	margin: 0 20px 0 20px;
+	background: #d6d6d8;
+	border: 3px solid rgb(20, 68, 80);
+}
+.placeholder-img.large {
+	width: 200px;
+	height: 150px;
+}
+.center .placeholder-img {
+	margin: 0 auto 20px auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.placeholder-img.right {
+	margin-right: 0;
+}
+.placeholder-img.left {
+	margin-left: 0;
+}
+.full-width {
+	width: 100%;
+}
+.nav-link.active {
+	color: rgb(20, 68, 80);
+}
+section {
+	clear: both;
+}
