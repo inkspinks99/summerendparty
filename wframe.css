@@ -1,10 +1,10 @@
 .logo {
 	float: left;
 	padding: 8px;
-	border-right: 3px solid rgb(20, 68, 80);
+	border-right: 3px solid black;
 }
 .border {
-	border: 3px solid rgb(20, 68, 80);
+	border: 3px solid black;
 }
 .center {
 	text-align: center;
@@ -20,7 +20,7 @@ header{
 	height: 100px;
 	margin: 0 20px 0 20px;
 	background: #d6d6d8;
-	border: 3px solid rgb(20, 68, 80);
+	border: 3px solid black;
 }
 .placeholder-img.large {
 	width: 200px;
