@@ -1,6 +1,10 @@
+body{
+	background-color: cornflowerblue;
+}
+
 .logo {
 	float: left;
-	padding: 8px;
+	padding: 5px;
 	border-right: 3px solid black;
 }
 .border {
@@ -13,7 +17,6 @@ header{
 	margin-bottom: 10px;
 }
 .row {
-	margin-bottom: 10px;
 }
 .placeholder-img {
 	width: 100px;
@@ -23,8 +26,8 @@ header{
 	border: 3px solid black;
 }
 .placeholder-img.large {
-	width: 200px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
 .center .placeholder-img {
 	margin: 0 auto 20px auto;
