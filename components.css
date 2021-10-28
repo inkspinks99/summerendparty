@@ -1,5 +1,43 @@
+body   {
+    background-color: pink;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    background-color: rgb(226, 169, 63);
+    color: white;
+    font-size: 25px;
+}
+
 .heading {
     text-align: center;
     padding: 10px;
-    background-color: crimson;
+    background-color: rgb(196, 84, 146);
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.img-fluid  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 109, 174);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    float: left;
+}
+
+.btn-success    {
+    background-color: pink;
 }
