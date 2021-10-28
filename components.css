@@ -35,9 +35,12 @@ body   {
     text-align: center;
     color: white;
     font-size: 40px;
-    float: left;
 }
 
 .btn-success    {
     background-color: pink;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
