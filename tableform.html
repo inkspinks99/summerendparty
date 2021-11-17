@@ -40,6 +40,37 @@
             </tr>
         </table>
         
+        <div class="form">
+            <p class="otsikko">
+                Täytä omat tietosi alle ja päätä kuka on eniten kännissä:
+            </p>
+    
+             <form action="https://www.w3schools.com/action_page.php">
+                <label for="nimi">Nimi:</label>
+                <input type="text" id="nimi" name="nimi" required><br><br>
+                <label for="ika">Ikä:</label>
+                <input type="text" id="ika" name="ika" required><br><br>
+                <label for="osoite">Osoite:</label>
+                <input type="text" id="osoite" name="osoite" required><br><br>
+                <label for="kaupunki">Kaupunki:</label>
+                <input type="text" id="kaupunki" name="kaupunki" required><br>
+                <p>Muuta mainitsemisen arvoista:</p>
+                <textarea name="message" rows="4"></textarea><br><br>
+                <label for="valinta">Valintasi</label>
+                    <select name="valinta" id="valinta">
+                    <option value="inka">Inka</option>
+                    <option value="jasmin">Jasmin</option>
+                    <option value="mette">Mette</option>
+                    <option value="eve">Eveliina</option>
+                </select><br><br>
+                <input type="checkbox" id="ehdot" name="ehdot">
+                <label for="ehdot">Hyväksyn ehdot</label>
+                <input type="submit" value="Add user">
+            </form>
+        </div>
+        <br>
+        <br>
+    
 
     </body>
 </html>

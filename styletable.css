@@ -5,3 +5,13 @@ table, th, td   {
     font-size: 30px;
     text-align: center;
 }
+
+.form   {
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    width: 579px;
+    border: 2px solid white;
+}
+
