@@ -1,0 +1,66 @@
+body    {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+}
+
+.main-header    {
+    background-color: rgb(160, 209, 221);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid rgb(33, 50, 146);
+}
+
+.section    {
+    background-image: url("sydän.jpg");
+    background-size: cover;
+    font-size: 20px;
+    color: rgb(160, 209, 221);
+    padding: 15px;
+    width: 50%;
+    float: left;
+    border: 2px solid rgb(33, 50, 146);
+    box-shadow: 8px 13px rgb(99, 11, 99);
+}
+
+.sidebar    {
+    float: right;
+    width: 40%;
+    background-color: rgb(160, 209, 221);
+    font-size: 20px;
+    color: rgb(33, 50, 146);
+    padding: 15px;
+    border: 2px solid rgb(33, 50, 146);
+    text-shadow: 2px 2px rgb(241, 232, 241);
+}
+
+.links      {
+    font-size: 30px;
+    color: royalblue;
+}
+
+a           {
+    border-style: solid;
+    border-color: slateblue;
+    padding: 5px;
+    background-color: lightskyblue;
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+
+a:hover     {
+    border-style: solid;
+    border-color: rgb(184, 216, 214);
+    padding: 5px;
+    background-color: rgb(83, 218, 211);
+    color: rgb(0, 0, 0);
+}
